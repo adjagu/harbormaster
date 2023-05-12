@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+
+
+  Name    : Harbormaster New World
+  Author  : adjagu
+  License : GPL-2.0-only
+  Version : 0.0.1
+
+
+-->
+<ModOps>
+
+  <ImyaTweaks Title="Attackable" />
+
+  <ModOp
+    GUID="1337471148"
+    Path="/Values/Attackable"
+    Type="Merge"
+    ModOpID="1337471148_SelfHealPerTick"
+  >
+    <SelfHealPerHealTick>5</SelfHealPerHealTick>
+  </ModOp>
+
+  <ImyaExpose
+    Path="self::SelfHealPerHealTick"
+    ModOpID="1337471148_SelfHealPerTick"
+    ExposeID="Healing"
+    Description="Amount of health regained per game tick. Default is 5."
+    Kind="Slider"
+  >
+    <SliderDefinition Min="5" Max="300" Stepping="1" />
+  </ImyaExpose>
+
+  <ModOp
+    GUID="1337471148"
+    Path="/Values/Attackable"
+    Type="Merge"
+    ModOpID="1337471148_MaximumHitPoints"
+  >
+    <MaximumHitPoints>5000</MaximumHitPoints>
+  </ModOp>
+
+  <ImyaExpose
+    Path="self::MaximumHitPoints"
+    ModOpID="1337471148_MaximumHitPoints"
+    ExposeID="Hit Points"
+    Description="Maximum hit points. Default is 5000."
+    Kind="Slider"
+  >
+    <SliderDefinition Min="5000" Max="9000" Stepping="50" />
+  </ImyaExpose>
+
+  <ModOp
+    GUID="1337471148"
+    Path="/Values/Attackable"
+    Type="Merge"
+    ModOpID="1337471148_MoralePower"
+  >
+    <MoralePower>100</MoralePower>
+  </ModOp>
+
+  <ImyaExpose
+    Path="self::MoralePower"
+    ModOpID="1337471148_MoralePower"
+    ExposeID="Morale"
+    Description="Morale power amount. Default is 100."
+    Kind="Slider"
+  >
+    <SliderDefinition Min="100" Max="350" Stepping="10" />
+  </ImyaExpose>
+  <!--
+
+
+    The end.
+
+
+  -->
+</ModOps>

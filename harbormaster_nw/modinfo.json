@@ -1,0 +1,21 @@
+{
+  "Version": "0.0.1",
+  "License": "GPL-2.0-only",
+  "ModID": "HudsonsBayCompany_Harbormaster_NW",
+  "IncompatibleIds": null,
+  "ModDependencies": null,
+  "Category": {
+    "English": "Gameplay"
+  },
+  "ModName": {
+    "English": "Harbormaster New World"
+  },
+  "Description": {
+    "English": "The harbormaster is a functional copy of the harbourmaster's office. AI controlled players can not build harbormasters. Further modification can be enabled with the use of iModYourAnno's tweaking tool."
+  },
+  "KnownIssues": null,
+  "DLCDependencies": null,
+  "CreatorName": "adjagu",
+  "CreatorContact": null,
+  "Image": null
+}

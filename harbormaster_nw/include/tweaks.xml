@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+
+
+  Name    : Harbormaster New World
+  Author  : adjagu
+  License : GPL-2.0-only
+  Version : 0.0.1
+
+
+-->
+<ModOps>
+  <!--
+    Attackable
+  -->
+  <Include File="./tweaks/attackable.tweak.xml" />
+
+  <!--
+    Costs
+  -->
+  <Include File="./tweaks/costs.tweak.xml" />
+
+  <!--
+    Maintenance
+  -->
+  <Include File="./tweaks/maintenance.tweak.xml" />
+
+  <!--
+    Socket
+  -->
+  <Include File="./tweaks/socket.tweak.xml" />
+
+  <!--
+    Storage
+  -->
+  <Include File="./tweaks/storage.tweak.xml" />
+  <!--
+
+
+    The end.
+
+
+  -->
+</ModOps>

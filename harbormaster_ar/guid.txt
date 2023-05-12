@@ -1,0 +1,7 @@
+1337471160 : Harbormaster AR : Building
+1337471161 : Harbormaster AR : InfoDescription
+
+1337471162 : Harbormaster AR : Trigger : Unhide
+1337471163 : Harbormaster AR : Trigger Creative : Unhide
+1337471164 : Harbormaster AR : Trigger : Unlock
+1337471165 : Harbormaster AR : Trigger Creative : Unlock

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+
+
+  Name    : Harbormaster New World
+  Author  : adjagu
+  License : GPL-2.0-only
+  Version : 0.0.1
+
+
+-->
+<ModOps>
+
+  <ImyaTweaks Title="Socket" />
+
+  <ModOp
+    GUID="1337471148"
+    Path="/Values/ItemContainer"
+    Type="Merge"
+    ModOpID="1337471148_SocketCount"
+  >
+    <SocketCount>3</SocketCount>
+  </ModOp>
+
+  <ImyaExpose
+    Path="self::SocketCount"
+    ModOpID="1337471148_SocketCount"
+    ExposeID="Count"
+    Description="Item socket count. Default is 3. More than 4 breaks UI."
+    Kind="Slider"
+  >
+    <SliderDefinition Min="1" Max="4" Stepping="1" />
+  </ImyaExpose>
+
+  <ModOp
+    GUID="1337471148"
+    Path="/Values/ItemContainer"
+    Type="Merge"
+    ModOpID="1337471148_SocketScopeRadius"
+  >
+    <SocketScopeRadius>20</SocketScopeRadius>
+  </ModOp>
+
+  <ImyaExpose
+    Path="self::SocketScopeRadius"
+    ModOpID="1337471148_SocketScopeRadius"
+    ExposeID="Range"
+    Description="Radius range. Default is 20."
+    Kind="Slider"
+  >
+    <SliderDefinition Min="10" Max="100" Stepping="1" />
+  </ImyaExpose>
+
+  <ModOp
+    GUID="1337471148"
+    Path="/Values/ItemContainer"
+    Type="Merge"
+    ModOpID="1337471148_SocketScopeRadiusOverlapCategory"
+  >
+    <SocketScopeRadiusOverlapCategory>HarborOffice</SocketScopeRadiusOverlapCategory>
+  </ModOp>
+ 
+  <ImyaExpose
+    Path="self::SocketScopeRadiusOverlapCategory"
+    ModOpID="1337471148_SocketScopeRadiusOverlapCategory"
+    ExposeID="Overlap"
+    Description="Building type that advanced harbourmaster overlaps with. Default is HarborOffice."
+    Kind="Enum"
+  >
+    <FixedValues>
+      <Value>HarborOffice</Value>
+      <Value>None</Value>
+    </FixedValues>
+  </ImyaExpose>
+  <!--
+
+
+    The end.
+
+
+  -->
+</ModOps>

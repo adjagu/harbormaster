@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+
+
+  Name    : Harbormaster Old World and Cape Trelawney
+  Author  : adjagu
+  License : GPL-2.0-only
+  Version : 0.0.1
+
+
+-->
+<ModOps>
+
+  <ImyaTweaks Title="Costs" />
+
+  <ModOp
+    GUID="1337471142"
+    Path="/Values/Cost/Costs/Item[Ingredient='1010017']"
+    Type="Merge"
+    ModOpID="1337471142_BuildCostCoins"
+  >
+    <Amount>2500</Amount>
+  </ModOp>
+
+  <ImyaExpose
+    Path="self::Amount"
+    ModOpID="1337471142_BuildCostCoins"
+    ExposeID="Coins"
+    Description="Amount of coins required to build advanced harbourmaster."
+    Kind="Slider"
+  >
+    <SliderDefinition Min="0" Max="2500" Stepping="1" />
+  </ImyaExpose>
+
+  <ModOp
+    GUID="1337471142"
+    Path="/Values/Cost/Costs/Item[Ingredient='1010196']"
+    Type="Merge"
+    ModOpID="1337471142_BuildCostTimber"
+  >
+    <Amount>20</Amount>
+  </ModOp>
+
+  <ImyaExpose
+    Path="self::Amount"
+    ModOpID="1337471142_BuildCostTimber"
+    ExposeID="Timber"
+    Description="Amount of timber required to build advanced harbourmaster."
+    Kind="Slider"
+  >
+    <SliderDefinition Min="0" Max="20" Stepping="1" />
+  </ImyaExpose>
+
+  <ModOp
+    GUID="1337471142"
+    Path="/Values/Cost/Costs/Item[Ingredient='1010205']"
+    Type="Merge"
+    ModOpID="1337471142_BuildCostBricks"
+  >
+    <Amount>10</Amount>
+  </ModOp>
+
+  <ImyaExpose
+    Path="self::Amount"
+    ModOpID="1337471142_BuildCostBricks"
+    ExposeID="Bricks"
+    Description="Amount of bricks required to build advanced harbourmaster."
+    Kind="Slider"
+  >
+    <SliderDefinition Min="0" Max="10" Stepping="1" />
+  </ImyaExpose>
+  <!--
+
+
+    The end.
+
+
+  -->
+</ModOps>

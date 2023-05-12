@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+
+
+  Name    : Harbormaster Arctic
+  Author  : adjagu
+  License : GPL-2.0-only
+  Version : 0.0.1
+
+
+-->
+<ModOps>
+
+  <ImyaTweaks Title="Maintenance" />
+
+  <ModOp
+    GUID="1337471160"
+    Path="/Values/Maintenance/Maintenances/Item[Product='1010017']"
+    Type="Merge"
+    ModOpID="1337471160_ActiveMaintenanceCost"
+  >
+    <Amount>50</Amount>
+  </ModOp>
+
+  <ImyaExpose
+    Path="self::Amount"
+    ModOpID="1337471160_ActiveMaintenanceCost"
+    ExposeID="Active"
+    Description="Active maintenance cost."
+    Kind="Slider"
+  >
+    <SliderDefinition Min="0" Max="50" Stepping="1" />
+  </ImyaExpose>
+
+  <ModOp
+    GUID="1337471160"
+    Path="/Values/Maintenance/Maintenances/Item[Product='1010017']"
+    Type="Merge"
+    ModOpID="1337471160_InactiveMaintenanceCost"
+  >
+    <InactiveAmount>25</InactiveAmount>
+  </ModOp>
+
+  <ImyaExpose
+    Path="self::InactiveAmount"
+    ModOpID="1337471160_InactiveMaintenanceCost"
+    ExposeID="Inactive"
+    Description="Inactive maintenance cost."
+    Kind="Slider"
+  >
+    <SliderDefinition Min="0" Max="25" Stepping="1" />
+  </ImyaExpose>
+  <!--
+
+
+    The end.
+
+
+  -->
+</ModOps>

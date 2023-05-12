@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+
+
+  Name    : Harbormaster Arctic
+  Author  : adjagu
+  License : GPL-2.0-only
+  Version : 0.0.1
+
+
+-->
+<ModOps>
+  <!--
+
+
+    Add Texts
+
+
+  -->
+  <ModOp Path="/TextExport/Texts" Type="Add">
+    <!--
+
+      Building display name
+
+    -->
+    <Text>
+      <GUID>1337471160</GUID>
+      <Text>Harbormaster</Text>
+    </Text>
+    <!--
+
+      Info description
+
+    -->
+    <Text>
+      <GUID>1337471161</GUID>
+      <Text>Use iModYourAnno to tweak build cost, health, item socket, maintenance cost, and storage amount.</Text>
+    </Text>
+  </ModOp>
+  <!--
+
+
+    The end.
+
+
+  -->
+</ModOps>

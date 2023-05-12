@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+
+
+  Name    : Harbormaster Africa
+  Author  : adjagu
+  License : GPL-2.0-only
+  Version : 0.0.1
+
+
+-->
+<ModOps>
+
+  <ImyaTweaks Title="Storage" />
+
+  <ModOp
+    GUID="1337471154"
+    Path="/Values/Warehouse/WarehouseStorage"
+    Type="Merge"
+    ModOpID="1337471154_StorageMax"
+  >
+    <StorageMax>0</StorageMax>
+  </ModOp>
+
+  <ImyaExpose
+    Path="self::StorageMax"
+    ModOpID="1337471154_StorageMax"
+    ExposeID="Storage"
+    Description="Amount of storage to add."
+    Kind="Slider"
+  >
+    <SliderDefinition Min="0" Max="1000" Stepping="25" />
+  </ImyaExpose>
+  <!--
+
+
+    The end.
+
+
+  -->
+</ModOps>

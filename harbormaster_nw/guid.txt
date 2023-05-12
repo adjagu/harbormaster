@@ -1,0 +1,7 @@
+1337471148 : Harbormaster NW : Building
+1337471149 : Harbormaster NW : InfoDescription
+
+1337471150 : Harbormaster NW : Trigger : Unhide
+1337471151 : Harbormaster NW : Trigger Creative : Unhide
+1337471152 : Harbormaster NW : Trigger : Unlock
+1337471153 : Harbormaster NW : Trigger Creative : Unlock

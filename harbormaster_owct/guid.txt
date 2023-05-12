@@ -1,0 +1,7 @@
+1337471142 : Harbormaster OWCT : Building
+1337471143 : Harbormaster OWCT : InfoDescription
+
+1337471144 : Harbormaster OWCT : Trigger : Unhide
+1337471145 : Harbormaster OWCT : Trigger Creative : Unhide
+1337471146 : Harbormaster OWCT : Trigger : Unlock
+1337471147 : Harbormaster OWCT : Trigger Creative : Unlock
