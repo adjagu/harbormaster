@@ -47,3 +47,8 @@ Below are the default install directories for various stores.
 1. Download the archive file(s) of the mod(s) you want.
 2. Open iModYourAnno and navigate to the "Library".
 3. Click the "Select Archive to install" button and choose the downloaded archive file(s).
+
+## Other Mods
+
+- [Harbor Warehouse](https://github.com/adjagu/harbor-warehouse)
+- [Residences Provide Influence](https://github.com/adjagu/residences-provide-influence)
