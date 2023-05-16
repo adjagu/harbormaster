@@ -52,3 +52,4 @@ Below are the default install directories for various stores.
 
 - [Harbor Warehouse](https://github.com/adjagu/harbor-warehouse)
 - [Residences Provide Influence](https://github.com/adjagu/residences-provide-influence)
+- [Warehouse](https://github.com/adjagu/warehouse)
